@@ -1,0 +1,28 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url('Esercizio-3/start/assets/img/sfondo.png');
+    max-width: 450px;
+}
+
+.testata{
+
+    text-align: center;
+    background-color: #7272f5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    background-color: white;
+    border: 1px black;
+}
