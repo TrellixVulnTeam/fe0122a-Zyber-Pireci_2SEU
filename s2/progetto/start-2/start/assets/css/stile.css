@@ -1,0 +1,232 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* HEADER */
+header{
+    display: inline;
+    width: 50%;
+    text-align: center;
+    
+}
+.testata{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 5px 2px rgb(117, 113, 113);
+    margin-bottom: 50px;
+}
+
+#registrati{
+    background-color: rgb(28, 3, 139);
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+    border: none;
+}
+
+
+nav > ul > li{
+    display: inline;
+    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: black;
+}
+
+
+
+/* MAIN INDEX */
+
+#parteuno{
+    background-image: url(../images/banner.jpg);
+    background-position: cover;
+    width:100%;
+    height: 400px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+#chiedinfo{
+    background-color: rgb(22, 2, 110);
+    color: white;
+    border-radius: 2px;
+    box-shadow: 2px 1px white;
+    padding: 10px;
+    border: none;
+    width: 150px;
+
+}
+
+.secondaparte{
+    text-align: center;
+}
+
+.terzaparte{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#scrivici{
+    background-color: rgb(25, 2, 124);
+    color: white;
+    border-radius: 2px;
+    box-shadow: 2px 1px white;
+    padding: 10px;
+    border: none;
+    width: 150px;
+}
+
+.quartaparte{
+    background-color: rgb(12, 2, 54);
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 60px;
+    border: 1px solid black;
+    color: white;
+}
+
+.quintaparte{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.computer{
+    padding: 10px;
+}
+
+/* MAIN CHI SIAMO */
+.partesei{
+    text-align: center;
+}
+
+
+.wearecoder{
+    text-align: center;
+}
+
+.dueimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.foto{
+    padding: 1px;
+    height: auto;
+}
+
+table{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.table{
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: solid 2px black;
+    margin: auto;
+}
+
+/* MAIN CONTATTI */
+.contatti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#form > form > input{
+    display: block;    
+}
+
+.input1{
+    height: 20px;
+    width: 300px;
+    padding-bottom: 5px;
+}
+
+.input2{
+    height: 100px;
+    width: 300px;
+}
+
+#inviamex{
+    background-color: rgb(22, 2, 107);
+    color: white;
+    border-radius: 2px;
+    box-shadow: 2px 1px white;
+    padding: 10px;
+    border: none;
+    width: 150px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+    background-color: lightgray;
+    padding: 50px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+}
+
+#vabene{
+    background-color: rgb(24, 3, 121);
+    color: white;
+    border-radius: 2px;
+    box-shadow: 2px 1px white;
+    padding: 10px;
+    border: none;
+    width: 300px;
+}
+
+.fa-facebook {
+    background: #f31818;
+    color: white;
+    padding: 4px;
+}
+
+.fa-linkedin{
+    background: #f31818;
+    color: white;
+    padding: 4px;
+
+}
+
+.fa-instagram{
+    background: #f31818;
+    color: white;
+    padding: 4px;
+
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 350px) and (max-width: 700){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
