@@ -11,7 +11,8 @@ body {
   background-attachment: fixed;
   height: 500px;
   width: auto;
-  padding: 50px; }
+  padding: 50px;
+  margin-bottom: 50px; }
   .primopiano #offerta #prezzo {
     font-size: 50px;
     color: lightseagreen; }
@@ -25,6 +26,20 @@ body {
       background-color: grey;
       color: lightseagreen; }
 
+.testimonianze {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .testimonianze .testimoni {
+    width: 500px;
+    padding: 20px;
+    margin: 10px; }
+    .testimonianze .testimoni .profilo {
+      border-radius: 100%;
+      height: 50px;
+      width: 50px; }
+
 .pubblicita {
   background-color: lightseagreen;
   padding: 20px;
@@ -34,22 +49,18 @@ body {
   flex-direction: column;
   justify-content: center; }
 
-.partners {
-  text-align: center; }
-
-.testimonianze {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center; }
-  .testimonianze .testimoni {
-    width: 300px;
-    padding: 20px;
-    margin: 10px; }
-    .testimonianze .testimoni .profilo {
-      border-radius: 100%;
-      height: 50px;
-      width: 50px; }
+#interships {
+  text-align: center;
+  padding: 50px; }
+  #interships .partnerships {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    #interships .partnerships .partner .logo {
+      padding: 20px;
+      height: 180px;
+      width: 300px; }
 
 footer {
   text-align: center;
