@@ -1,0 +1,104 @@
+@import 'function';
+
+@mixin sfondo {
+    background-image: url('../img/auto.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed; 
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.primopiano{
+    text-align: center;
+    @include sfondo();
+    height: 500px;
+    width:auto;
+    padding: 50px; 
+    #offerta{
+        #prezzo{
+            font-size: 50px;
+            color: lightseagreen;
+        }
+        .button{
+            width: 200px;
+            height: 50px;
+            border-radius: 5px;
+            background-color: lightseagreen;
+            font-size: larger;
+            &:hover{
+                background-color: grey;
+                color: lightseagreen;  
+            }
+        }
+    }
+}
+
+
+
+.pubblicita{
+    background-color: lightseagreen;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.partners{
+    text-align: center;
+}
+
+.testimonianze{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    .testimoni{
+        width: 300px;
+        padding: 20px;
+        margin: 10px;
+        .profilo{
+            border-radius: 100%;
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+}
+
+footer{
+    text-align: center;
+    background-color: #212529;
+    .footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        #sezioni{
+            width: 300px;
+            height: auto;
+            padding: 20px;
+            display: block;
+            border-radius: 20px;
+            h4{
+                color: white;
+            }
+            ul{
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        
+        }
+        
+    }
+}
