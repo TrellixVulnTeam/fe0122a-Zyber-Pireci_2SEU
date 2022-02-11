@@ -1,5 +1,16 @@
 @import 'function';
 
+$prymary-color: black;
+$secondary-color: lightseagreen;
+$headandfooter-color: #212529;
+$third-color: white;
+
+body{
+    background-color: $prymary-color;
+    color: $third-color;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 @mixin sfondo {
     background-image: url('../img/auto.png');
     background-repeat: no-repeat;
@@ -7,11 +18,6 @@
     background-attachment:fixed; 
 }
 
-body{
-    background-color: black;
-    color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 .primopiano{
     text-align: center;
     @include sfondo();
@@ -22,17 +28,17 @@ body{
     #offerta{
         #prezzo{
             font-size: 50px;
-            color: lightseagreen;
+            color: $secondary-color;
         }
         .button{
             width: 200px;
             height: 50px;
             border-radius: 5px;
-            background-color: lightseagreen;
+            background-color: $secondary-color;
             font-size: larger;
             &:hover{
                 background-color: grey;
-                color: lightseagreen;  
+                color: $secondary-color;  
             }
         }
     }
@@ -46,7 +52,8 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     .testimoni{
-        width: 500px;
+        width: 700px;
+        height: 300px;
         padding: 20px;
         margin: 10px;
         .profilo{
@@ -59,7 +66,7 @@ body{
 }
 
 .pubblicita{
-    background-color: lightseagreen;
+    background-color: $secondary-color;
     padding: 20px;
     margin: 30px;
     text-align: center;
@@ -89,7 +96,7 @@ body{
 
 footer{
     text-align: center;
-    background-color: #212529;
+    background-color: $headandfooter-color;
     .footer{
         display: flex;
         flex-direction: row;
@@ -102,15 +109,21 @@ footer{
             display: block;
             border-radius: 20px;
             h4{
-                color: white;
+                color: $third-color;
             }
             ul{
                 li{
                     list-style: none;
                     a{
                         text-decoration: none;
-                        color: white;
+                        color: $third-color;
                     }
+                    
+                }
+                .social{
+                    padding: 5px;
+                    background-color: $third-color;
+                    border-radius: 20%;
                 }
             }
         

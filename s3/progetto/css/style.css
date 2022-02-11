@@ -32,7 +32,8 @@ body {
   flex-wrap: wrap;
   justify-content: center; }
   .testimonianze .testimoni {
-    width: 500px;
+    width: 700px;
+    height: 300px;
     padding: 20px;
     margin: 10px; }
     .testimonianze .testimoni .profilo {
@@ -83,3 +84,7 @@ footer {
         footer .footer #sezioni ul li a {
           text-decoration: none;
           color: white; }
+      footer .footer #sezioni ul .social {
+        padding: 5px;
+        background-color: white;
+        border-radius: 20%; }
