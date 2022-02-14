@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outputjs</title>
+</head>
+<body>
+
+    <h1>Direttive di output</h1>
+    <div id="test"></div>
+    <!--All'interno del tag prevale il JS sottostante, quindi si possono compilare i tag con js-->
+    <h2 id="prova">Sono un titolo</h2>
+
+
+    <button type="button" onclick="document.write('scrivi qualcosa')">Clicca</button>
+
+
+    <!--I pop-up vanno in ordine in base alla loro posizione all'interno del body-->
+    <script>
+        //window.alert('Mi chiamo Zyber');
+        //alert(2+3);
+
+        document.getElementById('test').innerHTML = 3 + 4;
+        document.getElementById('prova').innerHTML = 'Contenuto che sostituisce';
+
+        document.write(100);
+
+
+        console.log(3 * 4);
+        console.log('Mi chiamo zyber');
+    </script>
+    <!--Il console.log ti fa vedere l'output sulla console del browser-->
+</body>
+</html>
