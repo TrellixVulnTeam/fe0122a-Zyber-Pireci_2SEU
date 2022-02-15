@@ -84,3 +84,4 @@ function changeBkcolor1(){
 function changeFont(){
     document.getElementById('test').style.fontFamily= 'Impact,Charcoal,sans-serif';
 }
+
