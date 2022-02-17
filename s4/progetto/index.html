@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>La mia calcolatrice in Js</h2>
+    <div class="calcolatrice">
+
+        <div>
+            <input type="text" id="display"></input>
+        </div>
+
+        <div id="tastiera">
+            <div id="uguale">
+                <button id="=" onclick="total()">=</button>
+            </div>
+    
+            <div class="suddivisione">
+                <button id="C" onclick="resetCalculator()">C</button>
+                <button id="0" onclick="task(this)">0</button>
+                <button id="." onclick="task(this)">.</button>
+                <button id="+" onclick="task(this)">+</button>
+            </div>
+    
+            <div class="suddivisione">
+                <button id="1" onclick="task(this)">1</button>
+                <button id="2" onclick="task(this)">2</button>
+                <button id="3" onclick="task(this)">3</button>
+                <button id="-" onclick="task(this)">-</button>
+            </div>
+    
+            <div class="suddivisione">
+                <button id="4" onclick="task(this)">4</button>
+                <button id="5" onclick="task(this)">5</button>
+                <button id="6" onclick="task(this)">6</button>
+                <button id="*" onclick="task(this)">X</button>
+            </div>
+    
+            <div class="suddivisione">
+                <button id="7" onclick="task(this)">7</button>
+                <button id="8" onclick="task(this)">8</button>
+                <button id="9" onclick="task(this)">9</button>
+                <button id="/" onclick="task(this)">/</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
