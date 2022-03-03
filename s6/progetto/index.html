@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Memory Game</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+	<div class="container">
+		<!--H2 con saluto iniziale-->
+		<h2 id="saluto"></h2>
+
+		<div class="row">
+			<div class="box">
+
+				<!--Bottone 'Nuova partita!'-->
+				<button id="start">Nuova partita!</button>
+
+				<!--Contatore di click-->
+				<div class="numclicks">
+					<h2>Numero di click: <span id="clicks">0</span>/26</h2>
+				</div>
+
+				<!--Bottone 'Ricomincia'-->
+				<button id="restart">Ricomincia</button>
+
+				<!--Messaggio di Game Over-->
+				<span id="gameOver">
+					<p>Clicca il tasto <strong>ricomincia</strong> per iniziare una nuova partita!</p>
+				</span>
+
+				<!--Memory-->
+				<div id="memory"></div>
+			
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

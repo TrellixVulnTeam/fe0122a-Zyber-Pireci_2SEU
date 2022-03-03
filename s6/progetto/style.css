@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.row {
+    width: 100%;
+    max-width: 1400px;
+    min-width: 1250px;
+    margin: auto;
+}
+
+.box {
+    width: 50%;
+    margin: auto;
+}
+
+.numclicks{
+    display: none;
+}
+h2 {
+    text-align: left;
+}
+
+.images {
+    background: rgba(0,218,219,1);
+    box-shadow: rgb(212, 212, 212) 10px 7px;
+    padding: 5px;
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+    border: solid 1px darkgray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.images:hover{
+    background-color: aqua;
+}
+
+.images img {
+    padding: 5px;
+    display: none;
+    position: absolute;
+    transform-origin: center;
+    width: 130px; 
+    height: 130px;
+}
+
+#memory{
+    display: none;
+    background-color: white;
+}
+
+span{
+    font-size: 42px;
+}
+
+#start{
+    margin-left: 40%;
+    margin-top: 20%;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 10rem;
+    height: 3rem;
+    background-color: rgba(0,218,219,1);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    box-shadow: rgb(212, 212, 212) 10px 7px;
+    margin-bottom: 10px;
+    cursor: pointer;    
+}
+
+#restart{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 10rem;
+    height: 3rem;
+    background-color: rgba(0,218,219,1);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    box-shadow: rgb(212, 212, 212) 10px 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+#gameOver{
+    display: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+#saluto{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+
