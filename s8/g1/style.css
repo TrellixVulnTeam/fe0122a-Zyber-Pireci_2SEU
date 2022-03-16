@@ -1,0 +1,28 @@
+.giocatori{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+.g1{
+    border: solid 1px black;
+    height: 100px;
+    width: 500px;
+    padding: 20px;
+}
+
+.g2{
+    border: solid 1px black;
+    height: 100px;
+    width: 500px;
+    padding: 20px;
+}
+
+#risultato{
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    font-size: 100px;
+}
+
