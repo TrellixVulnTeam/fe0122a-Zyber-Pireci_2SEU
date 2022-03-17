@@ -60,8 +60,8 @@ verificaSaldo.addEventListener("click", () => {
 
   AccountGenitore.twoDeposit(depositoDue);
   AccountGenitore.twoWithDraw(ritiroDue);
-
   AccountGenitore.addInterest();
+  
   salUno.value = AccountFiglio.balanceInit.toString();
   salDue.value = AccountGenitore.balanceInit.toString();
 
