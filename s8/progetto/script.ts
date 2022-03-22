@@ -29,7 +29,7 @@ class Vestiti {
 
     getacquistocapo(){ //Creiamo il metodo getacquistacapo()
         return this.capo +' '+ this.prezzoivainclusa+'€'
-    } //Gli diciamo cosa riportare: in questo caso prendiamo il value di "capo" e lo concateniamo con il value ti "prezzoivainclusa"
+    } //Gli diciamo cosa riportare in questo caso: prendiamo il value di "capo" e lo concateniamo con il value ti "prezzoivainclusa"
 
 
     getsaldocapo(){ //Creiamo il metodo getsaldocapo()

@@ -1,0 +1,49 @@
+.contenitore{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#sezioneVideo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+video{
+    height: auto;
+    width: 300px;
+}
+#appendiVideo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+button{
+    height: 30px;
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+
+}
+#sezioneAudio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#appendiPlayer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container1{
+    margin-right: 30px;
+}
